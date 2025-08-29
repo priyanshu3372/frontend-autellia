@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: base-font, sans-serif;
+}
+
+@font-face {
+    font-family:base-font;
+    src: url("src/assets/fonts/base-font.woff2") format("truetype");
+}
