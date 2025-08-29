@@ -1,0 +1,13 @@
+.text-changer-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:2.2rem;
+    font-family:"Inter",sans-serif;
+    font-family:
+}
+
+.text-changer-container span,.text-changer-container h1{
+    font-size:4rem;
+    font-weight:800;
+}

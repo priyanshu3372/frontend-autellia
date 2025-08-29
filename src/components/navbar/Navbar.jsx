@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import logoImage from '../../assets/images/logo.jpg'
+import gsap from 'gsap'
 import './Navbar.css'
 
 const Navbar = () => {
+useEffect(()=>{
+  const tl = gsap.timeline();
+  tl.from("ul li",{opacity:0, y:-50, stagger:0.12})
+})
   return (
     <nav className="navbar">
       <div className="logo">

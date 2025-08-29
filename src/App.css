@@ -2,7 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: base-font, sans-serif;
+}
+
+html,body{
+   overflow-x:hidden;
+   background-color: var(--theme-background-color);
+}
+
+@font-face {
+    font-family:main-font;
+    src: url("src/assets/fonts/main-font.woff2") format("truetype");
 }
 
 @font-face {
@@ -10,6 +19,17 @@
     src: url("src/assets/fonts/base-font.woff2") format("truetype");
 }
 
+@font-face {
+    font-family:subheader-font;
+    src: url("src/assets/fonts/subheader-font.woff2") format("truetype");
+}
+
+@font-face {
+    font-family:header-font;
+    src: url("src/assets/fonts/header-font.ttf") format("truetype");
+}
 :root{
-    --primary-color:#007bff;
+    --base-color:#007bff;
+    --primary-color:#3A99FC;
+    --theme-background-color:#E5E5E5;
 }
