@@ -9,3 +9,7 @@
     font-family:base-font;
     src: url("src/assets/fonts/base-font.woff2") format("truetype");
 }
+
+:root{
+    --primary-color:#007bff;
+}
