@@ -11,22 +11,22 @@ html,body{
 
 @font-face {
     font-family:main-font;
-    src: url("src/assets/fonts/main-font.woff2") format("truetype");
+    src: url("/assets/fonts/main-font.woff2") format("woff2");
 }
 
 @font-face {
     font-family:base-font;
-    src: url("src/assets/fonts/base-font.woff2") format("truetype");
+    src: url("/assets/fonts/base-font.woff2") format("woff2");
 }
 
 @font-face {
     font-family:subheader-font;
-    src: url("src/assets/fonts/subheader-font.woff2") format("truetype");
+    src: url("/assets/fonts/subheader-font.woff2") format("woff2");
 }
 
 @font-face {
     font-family:header-font;
-    src: url("src/assets/fonts/header-font.ttf") format("truetype");
+    src: url("/assets/fonts/header-font.ttf") format("truetype");
 }
 :root{
     --base-color:#007bff;

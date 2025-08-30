@@ -1,7 +1,7 @@
 import React from 'react'
 import './Homepage.css'
-import Hero from '../../components/heroSection/Hero'
-import EnterpriceSolutions from '../../components/enterpriceSolutions/EnterpriceSolutions'
+import Hero from '../../components/heroSection/Hero.jsx'
+import EnterpriceSolutions from '../../components/enterpriceSolutions/EnterpriseSolutions.jsx'
 const Homepage = () => {
   return (
     <div>

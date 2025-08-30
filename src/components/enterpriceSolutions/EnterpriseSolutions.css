@@ -1,0 +1,117 @@
+.enterprise-container{
+    width:100%;
+    height:auto;
+}
+
+.enterprise-banner-wrapper{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content:center;
+    position:relative;
+}
+.enterprise-banner{
+    width:70%;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:1rem;
+}
+
+.top-label{
+    background-color: #e6ffd9;
+    font-family: 'main-font', sans-serif;
+}
+
+.enterprise-banner h1{
+    font-family:"header-font",sans-serif;
+    font-size:3rem;
+    font-weight:600;
+    width:80%;
+}
+
+.enterprise-banner .heading-line-one{
+    width: 80%
+}
+
+.enterprise-banner .heading-line-two{
+    width:120%;
+}
+
+.enterprise-banner p{
+    width:50%;
+    font-family:"main-font",sans-serif;
+    font-size:1rem;
+    margin-top:1rem;
+}
+
+.enterprise-banner button{
+    margin-top:2rem;
+    padding:0.5rem 2rem;
+    color:black;
+    border:1px solid black;
+    font-family:"base-font",sans-serif;
+    cursor:pointer;
+    font-size:1.1rem;
+    font-weight:500;
+    background-color: white
+}
+
+.enterprise-banner button:hover{
+    background-color:var(--base-color);
+    color:white;
+    transition:0.2s ease-in-out;
+}
+
+.animated-card-scroll{
+    width:100%;
+    height:auto;
+}
+
+.card-track{
+    width:100%;
+    height:2500px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.card-scroll-track-left, .card-scroll-track-right{
+    width:50%;
+    /* this is to be taken care or after the cards */
+    background-color:var(--theme-background-color);
+}
+
+.card-scroll-track-left{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:flex-start;
+    padding-left:1rem;
+}
+
+.card-scroll-track-right{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:flex-end;
+    padding-right:1rem;
+}
+
+.ai-image{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ai-image img{
+    width:60%;
+    object-fit:contain;
+}
